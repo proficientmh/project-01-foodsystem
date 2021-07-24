@@ -1,0 +1,369 @@
+@font-face{
+	src:url(font/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf);
+	font-family: Lulo-Clean;
+}
+
+@font-face{
+	src:url(font/Montserrat-Regular.ttf);
+	font-family: Montserrat-Regular;
+}
+@font-face{
+	src:url(font/Montserrat-Bold.ttf);
+	font-family: Montserrat-Bold;
+}
+@font-face{
+	src:url(font/Avenir LT 35 Light.ttf);
+	font-family: Avenir;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir ;
+}
+html {
+  scroll-behavior: smooth;
+
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none !important;
+}
+
+.img {
+    height: 125px;
+    width: 300px;
+    padding: 25px;
+    margin-left: 50px;
+}
+
+/*header*/
+.header{
+	background-image: url("images/headerbg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 100% !important;
+}
+
+.header_content h1 {
+    font-family: Lulo-Clean;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 1.2;
+    text-transform: uppercase !important;
+    margin-top: 167px;
+    margin-left: 40px;
+    color: #1D1E21 !important;
+}
+
+.header_content h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-left: 40px;
+    line-height: normal;
+    font-family:  Montserrat-Regular;
+    color: #1D1E21 !important;
+}
+
+.header_content button {
+  
+    margin-top: 70px;
+ 	margin-left: 40px;
+ 	border: 2px solid #111;
+ 	width: 248px;
+ 	border-radius: 30px;
+ 	padding: 16px 0px;
+ 	color: #1D1E21;
+ 	font-size: 14px;
+ 	font-family: Montserrat-Bold;
+ 	line-height: 19.6px;
+ 	transition: .3s;
+ 	font-weight: 500;
+ 	height: 53px;
+}
+
+.header_content button:hover{
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 576px) {
+.navbar a {
+	margin: auto;
+}	
+.navbar  {
+	background: #FDFDFD;
+
+}
+
+.header_content h1 {
+    font-family: Lulo-Clean;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 167px;
+    margin-left: 15px;
+    color: #1D1E21 !important;
+}
+
+.header_content h3 {
+    font-weight: normal;
+    margin-bottom: -40px;
+    font-size: 19px;
+    margin-top: 16px;
+    margin-left: 15px;
+    line-height: normal;
+    font-family: Montserrat-regular, sans-serif;
+    color: #1D1E21 !important;
+}
+
+.header_content button {
+    width: 193px;
+    padding: 9px 0px;
+    height: 42px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+
+} 
+ 
+
+
+
+
+/*header end*/
+/*2nd-part start*/
+.blurp{
+	position: relative !important;
+}
+.blur_2{
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.mid h1{
+	font-family: Lulo-Clean;
+}
+
+.mid h3{
+	font-family: Montserrat-Bold;
+	font-size: 19px;
+	font-weight: normal;
+	padding-right: 30px !important;
+	margin-top: 40px;
+}
+
+.mid p{
+	font-size: 16px;
+	padding-right: 0px !important;
+}
+ .mid h1{
+ 	font-size: 31px;
+ 	text-transform: uppercase;
+ 	padding-right: 50px;
+ 	position: relative;
+	left: -80px;
+ }
+
+ @media only screen and (max-width: 768px){
+ 	.mid h1{
+ 		left: 0px;
+ 	}
+ }
+
+  @media only screen and (max-width: 576px){
+ 	.mid h1{
+		font-size: 21px;
+		margin-top: -238px !important;
+		margin-bottom: 154px !important;
+		padding-right: 348px !important;
+	}
+ 	.blurp{
+ 		margin-top: -48px !important;
+ 	}
+ }
+/*2nd-part end*/
+
+/*section 3/three*/
+.ic img{
+	margin-bottom: 15px;
+}
+.ic h3{
+	font-family:Lulo-Clean;
+	font-size: 18px; 
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.ic{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+/*section 3/three*/
+
+/*sec four*/
+.pp h3{
+	font-family: Montserrat-Bold;
+}
+.pp h2{
+	font-family: Montserrat-Bold;
+}
+
+.number_1 span {
+    font-family: Lulo-Clean;
+    color: #FFEAE8;
+    text-align: left;
+    font-size: 115px;
+    margin-left: 25px;
+}
+
+.number_1 p {
+    width: 53%;
+    font-family: Montserrat-bold;
+    font-size: 19px;
+    word-spacing: normal;
+    position: absolute;
+    margin-top: -64px;
+    line-height: normal;
+    color: #1D1E21;
+    text-align: left;
+    margin-left: 80px !important;
+}
+
+ @media only screen and (max-width: 768px){
+ 	.number_1 p{
+ 		margin-left: 155px !important;
+ 	}
+ }
+
+.number_2 span {
+    font-family: Lulo-Clean;
+    color: #ECDBFF;
+    text-align: left;
+    font-size: 115px;
+    position: relative;
+    margin-left: 25px;
+} 
+
+.number_2 p {
+    width: 53%;
+    font-family: Montserrat-bold;
+    font-size: 20px;
+    word-spacing: 7px;
+    position: absolute;
+    line-height: 1.2em;
+    color: #1D1E21;
+    text-align: left;
+    margin-top: -65px;
+	margin-left: 159px;
+}
+
+.number_3 span {
+    font-family: Lulo-Clean;
+    text-align: left;
+    font-size: 115px;
+    position: relative;
+    color: #D4EDEE;
+    margin-left: 25px;
+}
+
+.number_3 p {
+    width: 30%;
+    font-family: Montserrat-bold;
+    font-size: 20px;
+    word-spacing: 7px;
+    position: absolute;
+    line-height: 1.2em;
+    color: #1D1E21;
+    text-align: left;
+	margin-top: -62px;
+	margin-left: 154px;
+}
+
+.bt button{
+
+    border: 2px solid #111;
+    border-radius: 24px;
+    padding: 10px 45px;
+    color: #1D1E21;
+    font-size: 14px;
+    font-family: Montserrat-Bold;
+    line-height: 19.6px;
+    transition: .3s;
+    font-weight: 500;
+    font-family: Montserrat-bold;
+
+}
+.bt button:hover {
+    color: #fff;
+    background: #111;
+   
+}
+
+/*secfour*/
+
+/*sec-five*/
+
+@media only screen and (max-width: 600px){
+ 	.fiv .non{
+ 		display: none;
+ 	}
+ }
+/*sec-five*/
+
+/*sec-six*/
+.contact_left{
+	background: #1D1E21;
+}
+
+.contact_left h6 {
+    font-family: Montserrat-bold;
+    margin-top: 102px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    word-spacing: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.bottom_p {
+    margin-top: 40px;
+    font-family: montserrat;
+    font-size: 16px;
+    font-family: Avenir-LT-W01_35-Light1475496;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.bottom_p span {
+    margin: 0px 15px;
+}
+
+.contact_right {
+    background: #EE9C83;
+}
+
+@media only screen and (max-width: 600px){
+ 	.contact_right{
+ 		background: white;
+ 	}
+ }
+/*sec-six*/
